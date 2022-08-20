@@ -1,0 +1,12 @@
+import styled from "styled-components";
+// export const HYButton = styled(Button)`
+
+// `;
+export const Wrapper = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #292c35;
+`;

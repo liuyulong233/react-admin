@@ -1,0 +1,147 @@
+/* 溢出 */
+.overflow-auto {
+    overflow: auto;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .overflow-visible {
+    overflow: visible;
+  }
+  
+  .overflow-scroll {
+    overflow: scroll;
+  }
+  
+  .overscroll-auto {
+    overscroll-behavior: auto;
+  }
+  
+  .overscroll-contain {
+    overscroll-behavior: contain;
+  }
+  
+  .overscroll-none {
+    overscroll-behavior: none;
+  }
+  
+  /* display */
+  .flex {
+    display: flex;
+  }
+  .block {
+    display: block;
+  }
+  .inline-block {
+    display: inline-block;
+  }
+  .grid {
+    display: grid;
+  }
+  .hidden {
+    display: none;
+  }
+  /* 定位 */
+  .fixed {
+    position: fixed;
+  }
+  .absolute {
+    position: absolute;
+  }
+  .relative {
+    position: relative;
+  }
+  /* 可见性 */
+  .visible {
+    visibility: visible;
+  }
+  .invisible {
+    visibility: hidden;
+  }
+  /* Flex Direction */
+  .flex-row {
+    flex-direction: row;
+  }
+  .flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+  }
+  .flex-nowrap {
+    flex-wrap: nowrap;
+  }
+  .flex-1 {
+    flex: 1 1 0%;
+  }
+  .flex-auto {
+    flex: 1 1 auto;
+  }
+  .flex-grow {
+    flex-grow: 1;
+  }
+  .flex-shrink {
+    flex-shrink: 1;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .justify-end {
+    justify-content: flex-end;
+  }
+  .justify-around {
+    justify-content: space-around;
+  }
+  
+  .align-middle {
+    align-items: center;
+  }
+  .items-end {
+    align-items: flex-end;
+  }
+  /* 容器大小 */
+  .w-full {
+    width: 100%;
+  }
+  .h-screen {
+    height: 100vh;
+  }
+  .w-screen {
+    width: 100vw;
+  }
+  .h-full {
+    height: 100%;
+  }
+  /* 圆角 */
+  .round {
+      border-radius: 5000px;
+  }
+  
+  .radius {
+      border-radius: 12px;
+  }
+  /* 文字省略 */
+  .ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  /* 滚动条 */
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }

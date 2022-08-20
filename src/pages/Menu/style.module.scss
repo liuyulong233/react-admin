@@ -1,0 +1,19 @@
+.container {
+  :global {
+    .header {
+      // padding: 5px;
+      // background: pink;
+    }
+    .ant-row,
+    .ant-col {
+      height: 50px;
+    }
+    .ant-form-item {
+      margin-bottom: 0px;
+    }
+    .ant-form-item-label,
+    .ant-form-item-control {
+      line-height: 50px;
+    }
+  }
+}
